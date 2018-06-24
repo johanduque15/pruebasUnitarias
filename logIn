@@ -1,0 +1,48 @@
+{
+  "id": "115f9c8c-2fe1-4afb-a499-e9054666e106",
+  "name": "Untitled Project",
+  "url": "http://proyectoig.herokuapp.com",
+  "tests": [{
+    "id": "d3a870f4-634e-44fe-bd6e-843cc4161078",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "1e979d9b-83f5-4342-8beb-5f63418221a8",
+    "name": "TestCase",
+    "commands": [{
+      "id": "e7296791-91cd-4fb1-9d81-fc483c051d99",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "b01a5dd0-9716-4630-b0ee-6ca42fb5aa26",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "value": "ovifer15@gmail.com"
+    }, {
+      "id": "bd5be870-967b-47af-b2ba-fccd861a87e9",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "value": "clave01"
+    }, {
+      "id": "7407d39a-6b85-4e76-9739-38010cece9b4",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=enviar",
+      "value": "74,46"
+    }]
+  }],
+  "suites": [{
+    "id": "bd1bc765-7704-461f-8ae9-ff97e785ccf6",
+    "name": "Default Suite",
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d3a870f4-634e-44fe-bd6e-843cc4161078"]
+  }],
+  "urls": ["http://proyectoig.herokuapp.com/"],
+  "plugins": [],
+  "version": "1.0"
+}
